@@ -6,3 +6,5 @@
 The rules are customized to allow or block specific traffic
 
 ## Why did i choose these specific rules?
+sudo ufw allow ssh(it allows SSH traffic on port 22)
+sudo ufw deny http it denies any HTTP traffic on port 80
